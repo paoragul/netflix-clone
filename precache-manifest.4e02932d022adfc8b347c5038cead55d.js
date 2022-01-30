@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b062fee8d3cf4101fdf4750dc3f7be6a",
+    "revision": "e5e158c3abc488cdca4c669f0dee4c4b",
     "url": "/netflix-clone/index.html"
   },
   {
-    "revision": "6e416b19e0d18f8eb469",
+    "revision": "3a6b728548760ee169c1",
     "url": "/netflix-clone/static/css/main.42538a09.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/netflix-clone/static/js/2.4170fbbe.chunk.js"
   },
   {
-    "revision": "6e416b19e0d18f8eb469",
-    "url": "/netflix-clone/static/js/main.a8a40ece.chunk.js"
+    "revision": "3a6b728548760ee169c1",
+    "url": "/netflix-clone/static/js/main.b9d6cb8d.chunk.js"
   },
   {
     "revision": "ded34aa85da1aff6ad44",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/netflix-clone/static/media/pokemon.911033da.png"
   },
   {
-    "revision": "b73e7ae755c01bd426d812f45c41820a",
-    "url": "/netflix-clone/static/media/profile.b73e7ae7.png"
+    "revision": "da8fa0a58cf1ea03507121f24c750a90",
+    "url": "/netflix-clone/static/media/profile.da8fa0a5.png"
   },
   {
     "revision": "8e502de91dc8de985f860add271b3cb3",
