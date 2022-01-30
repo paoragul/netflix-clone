@@ -104,8 +104,7 @@ import titles from './mockData';
 				hoverSelect={this.hoverSelect} 
 				searchOpen={this.state.searchOpen}
 				onSearchOpen={this.handleSearchOpen}
-				onSearchChange={this.handleSearchChange}
-				clicked={this.state.clicked} />
+				onSearchChange={this.handleSearchChange} />
 			{
 				this.state.navSelected==='browse'? <BrowseDrop hoverSelect={this.hoverSelect} /> : null
 			}

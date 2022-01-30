@@ -13,7 +13,7 @@ function HeroTitle(props){
 		position:'absolute',
 		left:'20px',
 		bottom:'20px',
-		display:props.clicked.name==='Init'? 'none': ''
+		display:props.clicked==='Init'? '': 'none'
 	}
 	const synopsis={
 		backgroundColor:'rgba(0,0,0,0.90)',

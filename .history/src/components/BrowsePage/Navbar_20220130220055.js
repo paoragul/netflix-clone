@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import profile from '../../img/login/profile.png';
-import accueil from '../../img/login/image_accueil-1.png';
+import SearchBox from './SearchBox';
 
 import { Link } from "react-router-dom";
 
@@ -30,7 +30,7 @@ function Navbar(props){
 	return(
 		<div style={navStyle}>
 			<div style={subNav}>
-					<Link className='logo' to='/' onClick={() => props.onClicked(props.title)}>
+					<Link className='logo' to='/'>
 					<svg  style={svgContainer}
  width="843.000000pt" height="596.000000pt" viewBox="0 0 843.000000 596.000000"
  preserveAspectRatio="xMidYMid meet">

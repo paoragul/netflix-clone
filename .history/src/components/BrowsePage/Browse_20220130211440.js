@@ -18,10 +18,10 @@ import titles from './mockData';
 			navSelected:null,
 			myList:[],
 			clicked:{
-				"name": "Init",
+				"name": "Wallace & Gromit",
 				"img": accueil,
 				"newRelease": true,
-				"type": "Teoría de la forma - Clasificación de imagenes",
+				"type": "Tridimension a escala - Wallace y Gromit",
 				"genre": "Children",
 				"tags": [
 					""
@@ -104,8 +104,7 @@ import titles from './mockData';
 				hoverSelect={this.hoverSelect} 
 				searchOpen={this.state.searchOpen}
 				onSearchOpen={this.handleSearchOpen}
-				onSearchChange={this.handleSearchChange}
-				clicked={this.state.clicked} />
+				onSearchChange={this.handleSearchChange} />
 			{
 				this.state.navSelected==='browse'? <BrowseDrop hoverSelect={this.hoverSelect} /> : null
 			}

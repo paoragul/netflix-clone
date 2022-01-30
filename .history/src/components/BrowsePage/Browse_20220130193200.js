@@ -18,13 +18,13 @@ import titles from './mockData';
 			navSelected:null,
 			myList:[],
 			clicked:{
-				"name": "Init",
+				"name": "Wallace & Gromit",
 				"img": accueil,
 				"newRelease": true,
-				"type": "Teoría de la forma - Clasificación de imagenes",
+				"type": "Tridimension a escala - Wallace y Gromit",
 				"genre": "Children",
 				"tags": [
-					""
+					"Wallace y Gromit es una serie de películas británicas realizadas mediante la técnica de la animación en volumen. Se trata de figuras elaboradas con plastilina : son representaciones en 3D."
 				]
 			},
 			selectedIndex:null,
@@ -104,8 +104,7 @@ import titles from './mockData';
 				hoverSelect={this.hoverSelect} 
 				searchOpen={this.state.searchOpen}
 				onSearchOpen={this.handleSearchOpen}
-				onSearchChange={this.handleSearchChange}
-				clicked={this.state.clicked} />
+				onSearchChange={this.handleSearchChange} />
 			{
 				this.state.navSelected==='browse'? <BrowseDrop hoverSelect={this.hoverSelect} /> : null
 			}

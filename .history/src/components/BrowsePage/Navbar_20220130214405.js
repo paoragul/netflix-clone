@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import profile from '../../img/login/profile.png';
-import accueil from '../../img/login/image_accueil-1.png';
+import SearchBox from './SearchBox';
 
 import { Link } from "react-router-dom";
 
@@ -19,24 +19,15 @@ function Navbar(props){
 	const subNav={
 		display:'flex',
 		alignItems:'center',
-		paddingRight:'20px',
-	}
-
-	const svgContainer={
-		height:'100px',
-		width:'150px',
+		paddingRight:'20px'
 	}
 
 	return(
 		<div style={navStyle}>
 			<div style={subNav}>
-					<Link className='logo' to='/' onClick={() => props.onClicked(props.title)}>
-					<svg  style={svgContainer}
- width="843.000000pt" height="596.000000pt" viewBox="0 0 843.000000 596.000000"
- preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,596.000000) scale(0.100000,-0.100000)"
- stroke="none">
+					<Link className='logo' to='/'>
+					<g transform="translate(0.000000,596.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
 <path d="M1540 3010 c0 -1383 2 -1560 15 -1560 8 0 59 7 113 15 53 8 239 32
 412 55 173 22 353 50 399 61 237 59 397 171 484 337 65 125 78 184 89 422 15
 321 -8 481 -88 617 -42 73 -125 148 -204 185 l-69 32 52 30 c117 67 197 179
@@ -60,7 +51,6 @@ l5 -33 -222 0 -222 0 5 28 c3 15 52 339 108 720 62 413 106 686 111 675 4 -10
 -45 -38 -95 -51 -169 -45 -124 10 -215 79 -243 187 -5 19 -12 578 -16 1243
 l-7 1207 -237 0 c-130 0 -240 -3 -243 -7z"/>
 </g>
-</svg>
 						{/* <svg viewBox="0 0 111 30" focusable="true"><title></title><g id="netflix-logo"><path d="M105.062 14.28L111 30c-1.75-.25-3.499-.563-5.28-.845l-3.345-8.686-3.437 7.969c-1.687-.282-3.344-.376-5.031-.595l6.031-13.75L94.468 0h5.063l3.062 7.874L105.875 0h5.124l-5.937 14.28zM90.47 0h-4.594v27.25c1.5.094 3.062.156 4.594.343V0zm-8.563 26.937c-4.187-.281-8.375-.53-12.656-.625V0h4.687v21.875c2.688.062 5.375.28 7.969.405v4.657zM64.25 10.657v4.687h-6.406V26H53.22V0h13.125v4.687h-8.5v5.97h6.406zm-18.906-5.97V26.25c-1.563 0-3.156 0-4.688.062V4.687h-4.844V0h14.406v4.687h-4.874zM30.75 15.593c-2.062 0-4.5 0-6.25.095v6.968c2.75-.188 5.5-.406 8.281-.5v4.5l-12.968 1.032V0H32.78v4.687H24.5V11c1.813 0 4.594-.094 6.25-.094v4.688zM4.78 12.968v16.375C3.094 29.531 1.593 29.75 0 30V0h4.469l6.093 17.032V0h4.688v28.062c-1.656.282-3.344.376-5.125.625L4.78 12.968z" id="Fill-14"></path></g></svg> */}
 					</Link>
 				{/* <div onMouseEnter={()=>props.hoverSelect('browse')} onMouseLeave={()=>props.hoverSelect(null)}>
@@ -70,13 +60,13 @@ l-7 1207 -237 0 c-130 0 -240 -3 -243 -7z"/>
 				</div> */}
 			</div>
 			<div style={subNav}>
-				{/*<div className='nav-item'>
+				<div className='nav-item'>
 					<SearchBox 
 					searchOpen={props.searchOpen} 
 					onSearchOpen={props.onSearchOpen}
 					onSearchChange={props.onSearchChange}/>
 				</div>
-				 <div className='nav-item'>
+				{/* <div className='nav-item'>
 					<a>DVD</a>
 				</div>
 				<div className='nav-item'>

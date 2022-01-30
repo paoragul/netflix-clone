@@ -30,7 +30,19 @@ function Navbar(props){
 	return(
 		<div style={navStyle}>
 			<div style={subNav}>
-					<Link className='logo' to='/' onClick={() => props.onClicked(props.title)}>
+					<Link className='logo' to='/' onClick={ () => {
+						if(props.clicked != null){
+							props.clicked = {
+								"name": "Init",
+								"img": accueil,
+								"newRelease": true,
+								"type": "Teoría de la forma - Clasificación de imagenes",
+								"genre": "Children",
+								"tags": [
+									""
+								]
+						}
+					}}}>
 					<svg  style={svgContainer}
  width="843.000000pt" height="596.000000pt" viewBox="0 0 843.000000 596.000000"
  preserveAspectRatio="xMidYMid meet">

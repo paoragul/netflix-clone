@@ -12,15 +12,14 @@ function HeroTitle(props){
 		width:'30%',
 		position:'absolute',
 		left:'20px',
-		bottom:'20px',
-		display:props.clicked.name==='Init'? 'none': ''
+		bottom:'20px'
 	}
 	const synopsis={
 		backgroundColor:'rgba(0,0,0,0.90)',
 		padding:'10px',
 		textAlign: 'left',
 	}
-	console.log(props)
+
 	return (
 		<div style={background}>
 			<div style={info}>

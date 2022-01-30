@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import profile from '../../img/login/profile.png';
-import accueil from '../../img/login/image_accueil-1.png';
+import SearchBox from './SearchBox';
 
 import { Link } from "react-router-dom";
 
@@ -30,13 +30,13 @@ function Navbar(props){
 	return(
 		<div style={navStyle}>
 			<div style={subNav}>
-					<Link className='logo' to='/' onClick={() => props.onClicked(props.title)}>
-					<svg  style={svgContainer}
+					<Link className='logo' to='/'>
+					<svg  style={navStyle}
  width="843.000000pt" height="596.000000pt" viewBox="0 0 843.000000 596.000000"
  preserveAspectRatio="xMidYMid meet">
 
 <g transform="translate(0.000000,596.000000) scale(0.100000,-0.100000)"
- stroke="none">
+fill="#000000" stroke="none">
 <path d="M1540 3010 c0 -1383 2 -1560 15 -1560 8 0 59 7 113 15 53 8 239 32
 412 55 173 22 353 50 399 61 237 59 397 171 484 337 65 125 78 184 89 422 15
 321 -8 481 -88 617 -42 73 -125 148 -204 185 l-69 32 52 30 c117 67 197 179
@@ -70,13 +70,13 @@ l-7 1207 -237 0 c-130 0 -240 -3 -243 -7z"/>
 				</div> */}
 			</div>
 			<div style={subNav}>
-				{/*<div className='nav-item'>
+				<div className='nav-item'>
 					<SearchBox 
 					searchOpen={props.searchOpen} 
 					onSearchOpen={props.onSearchOpen}
 					onSearchChange={props.onSearchChange}/>
 				</div>
-				 <div className='nav-item'>
+				{/* <div className='nav-item'>
 					<a>DVD</a>
 				</div>
 				<div className='nav-item'>
