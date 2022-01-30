@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e5e158c3abc488cdca4c669f0dee4c4b",
+    "revision": "e75b2c4bc1b74468281f02229c618389",
     "url": "/netflix-clone/index.html"
   },
   {
-    "revision": "3a6b728548760ee169c1",
-    "url": "/netflix-clone/static/css/main.42538a09.chunk.css"
+    "revision": "981d03c432aec6d972e9",
+    "url": "/netflix-clone/static/css/main.1d5b6d4a.chunk.css"
   },
   {
-    "revision": "b59b36f93d76836cd9c4",
-    "url": "/netflix-clone/static/js/2.4170fbbe.chunk.js"
+    "revision": "37979990afb9c2c6cdb2",
+    "url": "/netflix-clone/static/js/2.6a023d8b.chunk.js"
   },
   {
-    "revision": "3a6b728548760ee169c1",
-    "url": "/netflix-clone/static/js/main.b9d6cb8d.chunk.js"
+    "revision": "981d03c432aec6d972e9",
+    "url": "/netflix-clone/static/js/main.b812b2fd.chunk.js"
   },
   {
     "revision": "ded34aa85da1aff6ad44",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bb24d0ffbc537b155c4e658ef7d5d972",
     "url": "/netflix-clone/static/media/happy_tree_friends.bb24d0ff.png"
+  },
+  {
+    "revision": "efebc6ff1e500b045267fe51e49613ba",
+    "url": "/netflix-clone/static/media/image_accueil-1.efebc6ff.png"
   },
   {
     "revision": "c99bf7a043161fdd89e1f9376be0b2f8",
@@ -64,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/netflix-clone/static/media/pokemon.911033da.png"
   },
   {
-    "revision": "da8fa0a58cf1ea03507121f24c750a90",
-    "url": "/netflix-clone/static/media/profile.da8fa0a5.png"
+    "revision": "b73e7ae755c01bd426d812f45c41820a",
+    "url": "/netflix-clone/static/media/profile.b73e7ae7.png"
   },
   {
     "revision": "8e502de91dc8de985f860add271b3cb3",
