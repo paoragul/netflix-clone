@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/netflix-clone/static/css/main.42538a09.chunk.css",
+    "main.js": "/netflix-clone/static/js/main.a8a40ece.chunk.js",
+    "main.js.map": "/netflix-clone/static/js/main.a8a40ece.chunk.js.map",
+    "runtime~main.js": "/netflix-clone/static/js/runtime~main.21c42e60.js",
+    "runtime~main.js.map": "/netflix-clone/static/js/runtime~main.21c42e60.js.map",
+    "static/js/2.4170fbbe.chunk.js": "/netflix-clone/static/js/2.4170fbbe.chunk.js",
+    "static/js/2.4170fbbe.chunk.js.map": "/netflix-clone/static/js/2.4170fbbe.chunk.js.map",
+    "index.html": "/netflix-clone/index.html",
+    "precache-manifest.f34fad0becc0c6ce15020c345525a37b.js": "/netflix-clone/precache-manifest.f34fad0becc0c6ce15020c345525a37b.js",
+    "service-worker.js": "/netflix-clone/service-worker.js",
+    "static/css/main.42538a09.chunk.css.map": "/netflix-clone/static/css/main.42538a09.chunk.css.map",
+    "static/media/abstrait1.png": "/netflix-clone/static/media/abstrait1.adb13645.png",
+    "static/media/abstrait2.png": "/netflix-clone/static/media/abstrait2.062a008f.png",
+    "static/media/bob_esponja.png": "/netflix-clone/static/media/bob_esponja.123adee2.png",
+    "static/media/happy_tree_friends.png": "/netflix-clone/static/media/happy_tree_friends.bb24d0ff.png",
+    "static/media/la_ligne.png": "/netflix-clone/static/media/la_ligne.c99bf7a0.png",
+    "static/media/looney_tunes.png": "/netflix-clone/static/media/looney_tunes.ef3ae1b5.png",
+    "static/media/los_teletubbies.png": "/netflix-clone/static/media/los_teletubbies.370a7387.png",
+    "static/media/mickey.png": "/netflix-clone/static/media/mickey.5b6294af.png",
+    "static/media/peter_griffin.png": "/netflix-clone/static/media/peter_griffin.65b3c8de.png",
+    "static/media/picapiedras.png": "/netflix-clone/static/media/picapiedras.b665a0b1.png",
+    "static/media/pokemon.png": "/netflix-clone/static/media/pokemon.911033da.png",
+    "static/media/profile.png": "/netflix-clone/static/media/profile.b73e7ae7.png",
+    "static/media/raphael.png": "/netflix-clone/static/media/raphael.8e502de9.png",
+    "static/media/rickymorty.png": "/netflix-clone/static/media/rickymorty.0cfefd4e.png",
+    "static/media/simpson_2_crop.png": "/netflix-clone/static/media/simpson_2_crop.b3b28d80.png",
+    "static/media/varios.png": "/netflix-clone/static/media/varios.2eb3c911.png",
+    "static/media/wallaceGromit.png": "/netflix-clone/static/media/wallaceGromit.773dc528.png"
+  }
+}
