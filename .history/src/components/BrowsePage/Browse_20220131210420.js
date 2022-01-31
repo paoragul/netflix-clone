@@ -87,11 +87,13 @@ import titles from './mockData';
 	}
 	handleTitleSelect(id){
 		this.setState({selectedIndex:id});
+		window.scrollTo(0,0);
 	}
 
 	handleTitleClicked(title){
+		
+		console.log(title)
 		this.setState({clicked:title});
-		window.scrollTo(0,0);
 	}
 
 	render(){
